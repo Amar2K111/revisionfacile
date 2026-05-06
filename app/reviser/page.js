@@ -379,15 +379,6 @@ export default function ReviserPage() {
 
             {classe?.available ? (
               <div className="space-y-2 pt-1">
-                <p className="text-center text-xs text-slate-600">
-                  Suite Révision facile : essentiel → programme dense → astuces, puis entraînement oral et
-                  quiz interactif.
-                  {classId === "3e" && subjectId === "math" ? (
-                    <span className="block text-slate-500">
-                      Maths 3ᵉ : enrichissement automatique quand la notion est en base experte.
-                    </span>
-                  ) : null}
-                </p>
                 <button
                   type="button"
                   onClick={handleGenerate}
